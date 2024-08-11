@@ -13,7 +13,7 @@ import PlacesFormPage from './pages/PlacesFormPage';
 import PlacePage from './pages/PlacePage';
 import BookingsPage from './pages/BookingsPage';
 import BookingPage from './pages/BookingPage';
-axios.defaults.baseURL = "http://localhost:4001"
+axios.defaults.baseURL = process.env.REACT_APP_BASE_URL
 axios.defaults.withCredentials = true
 function App() {
 
